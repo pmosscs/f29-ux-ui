@@ -14,8 +14,8 @@ function App() {
       <Routes>
         <Route path="" element={<HomeScreen />} />
         <Route path="/css" element={<CssScreen />} />
-        <Route path="/team" element={<DetailScreen />} />
-        <Route path="/detail/:id" element={<TeamScreen />} />
+        <Route path="/detail/:id" element={<DetailScreen />} />
+        <Route path="/team" element={<TeamScreen />} />
       </Routes>
     </div>
   );
